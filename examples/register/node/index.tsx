@@ -1,5 +1,5 @@
 import React from 'react';
-import GGEditor, { Flow, RegisterNode, setAnchorPointsState } from 'gg-editor';
+import GGEditor, { Flow, RegisterNode, setAnchorPointsState } from '@baic/gg-editor';
 import styles from './index.less';
 
 const data = {

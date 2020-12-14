@@ -12,3 +12,5 @@
 
 .eslintcache
 /examples/dist
+
+package-lock.json

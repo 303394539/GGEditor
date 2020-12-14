@@ -1,6 +1,6 @@
 import React from 'react';
-import { withEditorContext } from 'gg-editor';
-import { EditorContextProps } from 'gg-editor/lib/components/EditorContext';
+import { withEditorContext } from '@baic/gg-editor';
+import { EditorContextProps } from '@baic/gg-editor/components/EditorContext';
 
 interface WrappedClassComponentProps extends EditorContextProps {}
 

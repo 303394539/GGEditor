@@ -1,3 +1,4 @@
+import path from 'path';
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
@@ -10,22 +11,22 @@ export default defineConfig({
       null,
       {
         title: 'GitHub',
-        path: 'https://github.com/alibaba/GGEditor',
+        path: 'https://github.com/303394539/GGEditor',
       },
       {
         title: 'Changelog',
-        path: 'https://github.com/alibaba/GGEditor/blob/master/CHANGELOG.md',
+        path: 'https://github.com/303394539/GGEditor/blob/master/CHANGELOG.md',
       },
     ],
     'zh-CN': [
       null,
       {
         title: 'GitHub',
-        path: 'https://github.com/alibaba/GGEditor',
+        path: 'https://github.com/303394539/GGEditor',
       },
       {
         title: '更新日志',
-        path: 'https://github.com/alibaba/GGEditor/blob/master/CHANGELOG.md',
+        path: 'https://github.com/303394539/GGEditor/blob/master/CHANGELOG.md',
       },
     ],
   },
@@ -41,5 +42,8 @@ export default defineConfig({
     react: 'React',
     'react-dom': 'ReactDOM',
     antd: 'antd',
+  },
+  alias: {
+    '@baic/gg-editor': path.resolve('src'),
   },
 });

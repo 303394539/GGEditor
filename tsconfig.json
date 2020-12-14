@@ -10,7 +10,8 @@
     "strictBindCallApply": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "@baic/gg-editor": ["src"]
     }
   },
   "include": ["src"]

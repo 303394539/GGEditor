@@ -18,7 +18,7 @@ npm install gg-editor --save
 ### umd
 
 ```html | pure
-<script src="https://unpkg.com/gg-editor@${version}/dist/index.js"></script>
+<script src="https://unpkg.com/@baic/gg-editor@${version}/dist/index.js"></script>
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ npm install gg-editor --save
 [![Edit GGEditor - Flow](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/ggeditor-flow-hq64m?fontsize=14&hidenavigation=1&theme=dark)
 
 ```jsx | pure
-import GGEditor, { Flow } from 'gg-editor';
+import GGEditor, { Flow } from '@baic/gg-editor';
 
 const data = {
   nodes: [
@@ -64,7 +64,7 @@ const data = {
 [![Edit GGEditor - Mind](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/ggeditor-mind-2262q?fontsize=14&hidenavigation=1&theme=dark)
 
 ```jsx | pure
-import GGEditor, { Mind } from 'gg-editor';
+import GGEditor, { Mind } from '@baic/gg-editor';
 
 const data = {
   label: 'Central Topic',
@@ -90,7 +90,7 @@ const data = {
 
 ```bash | pure
 # Clone the repository
-$ git clone https://github.com/alibaba/GGEditor.git
+$ git clone https://github.com/303394539/GGEditor.git
 
 # Change directory
 $ cd gg-editor

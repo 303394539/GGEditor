@@ -1,5 +1,5 @@
 import React from 'react';
-import GGEditor, { Flow, Item, ItemPanel } from 'gg-editor';
+import GGEditor, { Flow, Item, ItemPanel } from '@baic/gg-editor';
 import styles from './index.less';
 
 const data = {
