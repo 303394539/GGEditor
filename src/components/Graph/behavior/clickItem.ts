@@ -35,6 +35,7 @@ const clickItemBehavior: ClickItemBehavior & ThisType<ClickItemBehavior & Defaul
   getEvents() {
     return {
       'node:click': 'handleItemClick',
+      'node:dragstart': 'handleItemClick',
       'edge:click': 'handleItemClick',
       'canvas:click': 'handleCanvasClick',
       keydown: 'handleKeyDown',
